@@ -15,7 +15,9 @@ var cap1;
 for(let i=0;i<person.length;i++){
 	cap1 = cap1 + person[i];
 }
-
+console.log(team); // Output: ["John", "Bob", "Alice", "Poppy"]
+console.log(team1); // Output: ["John", "Bob", "Alice", "Poppy"]
+console.log(cap1); // Output: { name: "John Doe", age: 80 }
 
 // Create a copy of the object person
 
